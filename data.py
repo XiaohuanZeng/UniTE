@@ -34,8 +34,10 @@ MIN_TRIP_LEN = 6
 MAX_TRIP_LEN = 120
 TRIP_COLS = ['tod', 'road', 'road_prop', 'lng', 'lat', 'weekday', 'seq_i', 'seconds']
 
-DATASET_PATH = os.environ['DATASET_PATH']
-META_PATH = os.environ['META_PATH']
+# DATASET_PATH = os.environ['DATASET_PATH']
+# META_PATH = os.environ['META_PATH']
+DATASET_PATH = "sample"
+META_PATH = "cache"
 
 
 class Data:
